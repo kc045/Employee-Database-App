@@ -45,4 +45,23 @@ viewEmployee() – displays all employees
 updateEmployee() – updates employee details by ID
 
 deleteEmployee() – removes an employee record using ID
+
+<h2>**Sample Console Output**</h2>
+```
+Employee Management System
+1. Add Employee
+2. View Employee
+3. Update Employee
+4. Delete Employee
+5. Exit
+Choose an option:
+```
+
+---
+
+<h2>### ⚠️ **Note**</h2>
+- The app uses a **static connection object** to avoid multiple declarations.
+- The **ID must be unique**, as it's set as the primary key.
+- Ensure MySQL is running and the `student` database exists before launching the app.
+
 </br>
