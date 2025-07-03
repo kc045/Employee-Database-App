@@ -1,4 +1,4 @@
-<h1>---Employee Database Management App (Java + JDBC)---</h1>
+<h1>Employee Database Management App (Java + JDBC)</h1>
 <br>
 This is a Java console-based application that connects to a MySQL database using JDBC (Java Database Connectivity) to perform basic CRUD operations (Create, Read, Update, Delete) on employee records.
 
