@@ -27,8 +27,8 @@ USE student;
 
 CREATE TABLE demo (
     id INT PRIMARY KEY,
-    name VARCHAR(100),
-    email VARCHAR(100),
+    name VARCHAR(255),
+    email VARCHAR(255),
     salary DOUBLE
 );
 
@@ -49,12 +49,12 @@ deleteEmployee() – removes an employee record using ID
 <h2>**Sample Console Output**</h2>
 ```
 Employee Management System
-1. Add Employee
-2. View Employee
-3. Update Employee
-4. Delete Employee
-5. Exit
-Choose an option:
+- 1. Add Employee
+- 2. View Employee
+- 3. Update Employee
+- 4. Delete Employee
+- 5. Exit
+- Choose an option:
 ```
 
 ---
